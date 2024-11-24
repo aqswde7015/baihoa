@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách các loài hoa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .flower-card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .flower-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .flower-info {
+            max-width: calc(100% - 120px);
+        }
+        .flower-info h2 {
+            margin: 0 0 10px;
+            color: #555;
+        }
+        .flower-info p {
+            margin: 0;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Danh sách các loài hoa</h1>
+        <!-- Bắt đầu hiển thị từng loại hoa -->
+        <div class="flower-card">
+            <!-- <img src="path/to/image1.jpg" alt="Hoa dạ yến thảo"> -->
+            <div class="flower-info">
+                <h2>Hoa dạ yến thảo</h2>
+                <p>Là lựa chọn thích hợp cho những ai yêu thích trang trí nhà cửa bằng sắc hoa nhẹ nhàng.</p>
+            </div>
+        </div>
+        <div class="flower-card">
+            <!-- <img src="path/to/image2.jpg" alt="Hoa đồng tiền"> -->
+            <div class="flower-info">
+                <h2>Hoa đồng tiền</h2>
+                <p>Hoa đồng tiền thích hợp để trồng trong mùa xuân và mang lại cảm giác vui tươi.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
